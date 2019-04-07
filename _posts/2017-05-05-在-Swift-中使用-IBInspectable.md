@@ -2,14 +2,13 @@
 layout:     post
 title:      在 Swift 中使用 IBInspectable
 subtitle:   IBInspectable 在 Swift 中的实际应用
-date:       2017-05-05
-author:     BY
+date:       2019-04-07
+author:     Blue Demon
 header-img: img/post-bg-swift.jpg
 catalog: true
 tags:
-    - iOS
-    - Swift
-    - IBInspectable
+    - SpringCloud
+    - Archives
 ---
 
 
