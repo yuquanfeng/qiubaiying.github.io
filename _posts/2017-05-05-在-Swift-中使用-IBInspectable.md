@@ -2,7 +2,7 @@
 layout:     post
 title:      在 Swift 中使用 IBInspectable
 subtitle:   IBInspectable 在 Swift 中的实际应用
-date:       2019-04-07
+date:       2019-04-21
 author:     Blue Demon
 header-img: img/post-bg-swift.jpg
 catalog: true
