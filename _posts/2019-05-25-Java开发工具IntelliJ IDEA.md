@@ -55,7 +55,89 @@ tags:
 |Ctrl + Shift + ]/[|Select till code block end/start|从当前光标所在位置开始，一直选择到当前光标所在代码段起始或者结束位置。|
 |Ctrl + Delete|Delete to word end|删除从当前光标所在位置开始，直到这个单词的结尾的内容。|
 |Ctrl + NumPad(+/-)|Expand/collapse code block|展开或收缩代码段。 （常用）|
-|Ctrl + Shift + NumPad(+)|Expand all|展开所有代码段。
-|Ctrl + Shift + NumPad(-)|Collapse all|收缩所有代码段。
-|Ctrl + F4|Close active editor tab|关闭当前标签页。
-|Shift + F6|            |修改名字。（常用）
+|Ctrl + Shift + NumPad(+)|Expand all|展开所有代码段。|
+|Ctrl + Shift + NumPad(-)|Collapse all|收缩所有代码段。|
+|Ctrl + F4|Close active editor tab|关闭当前标签页。|
+|Shift + F6|            |修改名字。（常用）|
+
+### 2查找或替换【Search/Replace】
+
+|快捷键|英文说明|中文说明|
+|----------|----------|----------|
+|Ctrl + F|Find|在当前标签页中进行查找，还支持正则表达式哦。（常用）|
+|F3|Find next|如果找到了多个查找结果，每调用一次就会跳到下一个结果，很方便哦。|
+|Shift + F3|Find previous|是 F3 的反向操作，即每调用一次就会跳到上一个结果。|
+|Ctrl + R|	Replace|在当前标签页中进行替换操作。（常用）|
+|Ctrl + Shift + F|Find in path|通过路径查找。（常用）|
+|Ctrl + Shift + R|Replace in path|通过路径替换。（常用）|
+
+### 3查看使用情况【Usage Search】
+
+|快捷键|英文说明|中文说明|
+|----------|-----------|
+|Alt + F7|Find usages|在当前项目中的使用情况，会打开一个使用情况面板。|
+|Ctrl + F7|Find usages in file|在当前文件中的使用情况，找的内容会低亮显示。|
+|Ctrl + Shift + F7|        |在当前文件中的使用情况，找的内容会高亮显示。|
+|Ctrl + Alt + F7|Show usages|打开使用情况列表。 （常用）|
+
+### 4编译与运行【Compile and Run】
+
+|快捷键|英文说明|中文说明|
+|---------|-----------|
+|Ctrl + F9|Make project (compile modifed and dependent)|编译项目（如果之前有编译过，那么只会编译那些修改的类或者依赖的包）。|
+|Ctrl + Shift + F9|Compile selected file, package or module|编译所中的范围（如果在某个类中，那么只会编译当前类）。|
+|Alt + Shift + F10|	Select configuration and run|会打开一个已经配置的运行列表，让你选择一个后，再运行。|
+|Alt + Shift + F9|Select configuration and debug|会打开一个已经配置的运行列表，让你选择一个后，再以调试模式运行。|
+|Shift + F10|Run|立即运行当前配置的运行实例，这个在单元测试中特别好用。 （常用）|
+|Shift + F9|Debug|立即以编译模式运行当前配置的运行实例。|
+|Ctrl + Shift + F10|Run context configuration from editor|按照编辑器绑定的文件类型，运行相关的程序。比如一个 html 页面，调用后，会直接打开一个浏览器|
+
+### 5调试【Debugging】
+
+|快捷键|英文说明|中文说明|
+|----------|-----------|
+|F8|Step over|调到当前代码的下一行（常用）|
+|F7|Step into|跳入到调用的方法内部代码。 （常用）|
+|Shift + F7|Smart step into|会打开一个面板，让你选择具体要跳入的类方法，这个在复杂的嵌套代码中特别有用|
+|Shift + F8|Step out|跳出当前的类，到上一级。 （常用）|
+|Alt + F9|Run to cursor|让代码运行到当前光标所在处，非常棒的功能。 （常用）|
+|Alt + F8|	Evaluate expression|打开一个表达式面板，然后进行进一步的计算。|
+|F9|Resume program|结束当前断点的本轮调试（因为有可能代码会被调用多次，所以调用后只会结束当前的这一次）；如果有下一个断点会跳到下一个断点中。（常用）|
+|Ctrl + F8|Toggle breakpoint|在当前光标处，添加或者删除断点|
+|Ctrl + Shift + F8|View breakpoints|打开当前断点的面板，可以进行条件过滤哦。|
+
+### 6导航【Navigation】
+
+|快捷键|英文说明|中文说明|
+|---------|-----------|
+|Ctrl + N	|Go to class|打开类查询框。（常用）|
+|Ctrl + Shift + N|Go to file|打开文件查询框。（常用）|
+|Ctrl + Alt + Shift + N|Go to symbol|打开文本查询框。|
+|Alt + 右箭头/左箭头|Go to next/previous editor tab|跳到下一个/上一个编辑器标签。|
+|F12|Go back to previous tool window|如果当前在编辑窗口，触发后，会跳到之前操作过的工具栏上。|
+|ESC|Go to editor (from tool window)|	从工具栏上，再跳回原来的编辑窗口，一般与 F12 配合使用。|
+|Shift + ESC|Hide active or last active window|隐藏最后一个处于活跃状态的工具窗口。|
+|Ctrl + Shift + F4|Close active run/messages/find/… tab|同时关闭处于活动状态的某些工具栏窗口。|
+|Ctrl + G|Go to line|跳转至某一行代码。。（常用）|
+|Ctrl + E|Recent files popup|打开曾经操作过的文件历史列表。|
+|Ctrl + Alt + 右箭头/左箭头	|Navigate back/forward|在曾经浏览过的代码行中来回跳|
+|Ctrl + Shift + Backspace|Navigate to last edit location|跳转到最近的编辑位置（如果曾经编辑过代码）。|
+|Alt + F1|Select current file or symbol in any view|打开一个类型列表，选择后会导航到当前文件或者内容的具体与类型相关的面板中。|
+|Ctrl + B 或 Ctrl + 鼠标左键|Go to declaration|如果是类，那么会跳转到当前光标所在的类定义或者接口；如果是变量，会打开一个变量被引用的列表。（常用）|
+|Ctrl + Alt + B|Go to implementation(s)|跳转到实现类，而不是接口。（常用）|
+|Ctrl + Shift + I|Open quick definition lookup|打开一个面板，里面包含类代码。|
+|Ctrl + Shift + B|	Go to type declaration|打开变量的类型所对应的类代码，只对变量有用。|
+|Ctrl + U|Go to super-method/super-class|打开方法的超类方法或者类的超类，只对有超类的方法或者类有效。|
+|Alt + 上/下箭头|	Go to previous/next method|在某个类中，跳到上一个/下一个方法的签名上。|
+|Ctrl + ]/[|Move to code block end/start|移动光标到类定义的终止右大括号或者起始左大括号。|
+|Ctrl + F12|File structure popup|打开类的结构列表。（常用）|
+|Ctrl + H|Type hierarchy|打开类的继承关系列表。（常用）|
+|Ctrl + Shift + H|Method hierarchy|打开某个类方法的继承关系列表。|
+|Ctrl + Alt + H|Call hierarchy|打开所有类的方法列表，这些方法都调用了当前光标所处的某个类方法。（常用）|
+|F2/Shift + F2|Next/previous highlighted error|在编译错误的代码行中来回跳。|
+|F4|Edit source|打开当前光标所在处的方法或类源码。|
+|Alt + Home|Show navigation bar|激活包路径的导航栏。|
+|F11|Toggle bookmark|把光标所处的代码行添加为书签或者从书签中删除。（常用）|
+|Ctrl + F11|Toggle bookmark with mnemonic|把光标所处的代码行添加为带快捷键的书签或者从快捷键书签中删除。|
+|Ctrl + [0-9]|Go to numbered bookmark|跳转到之前定义的快捷键书签。|
+|Shift + F11|Show bookmarks|打开书签列表。（常用）|
