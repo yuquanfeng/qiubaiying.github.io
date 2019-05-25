@@ -55,7 +55,7 @@ tags:
 |Ctrl + Shift + ]/[|Select till code block end/start|从当前光标所在位置开始，一直选择到当前光标所在代码段起始或者结束位置。|
 |Ctrl + Delete|Delete to word end|删除从当前光标所在位置开始，直到这个单词的结尾的内容。|
 |Ctrl + NumPad(+/-)|Expand/collapse code block|展开或收缩代码段。 （常用）|
-|Ctrl + Shift + NumPad(+)|Expand all|展开所有代码段。|
-|Ctrl + Shift + NumPad(-)|Collapse all|收缩所有代码段。|
-|Ctrl + F4|Close active editor tab|关闭当前标签页。|
-|Shift + F6|            ||修改名字。（常用）|
+|Ctrl + Shift + NumPad(+)|Expand all|展开所有代码段。
+|Ctrl + Shift + NumPad(-)|Collapse all|收缩所有代码段。
+|Ctrl + F4|Close active editor tab|关闭当前标签页。
+|Shift + F6|            |修改名字。（常用）
