@@ -3,7 +3,7 @@ layout:     post
 title:      IntelliJ IDEA快捷键大全
 subtitle:   Java开发工具
 date:       2019-05-24
-author:     Blue Demon
+author:     在机场等一艘船(Slash)
 header-img: img/post-bg-swift.jpg
 catalog: true
 tags:

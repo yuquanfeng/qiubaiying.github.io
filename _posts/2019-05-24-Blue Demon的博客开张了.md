@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Blue Demon的博客开张了
+title:      在机场等一艘船（Slash)的博客开张了
 subtitle:   第一篇自己的博客
 date:       2019-05-24
-author:     Blue Demon
+author:     在机场等一艘船(Slash)
 header-img: img/post-bg-swift.jpg
 catalog: true
 tags:
