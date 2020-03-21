@@ -11,7 +11,7 @@ tags:
 ---
 
 
-> 本文首次发布于 [Blue Demon Blog](http://yuquanfeng.github.io), 作者 [@蓝魔(Blue Demon)](http://github.com/yuquanfeng) ,转载请保留原文链接.
+> 本文首次发布于 [Slash Blog](http://yuquanfeng.github.io), 作者 [@在机场等一艘船(Slash)](http://github.com/yuquanfeng) ,转载请保留原文链接.
 
 ## IntelliJ IDEA介绍
 
