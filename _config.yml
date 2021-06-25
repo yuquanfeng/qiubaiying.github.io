@@ -1,10 +1,10 @@
 # Site settings
-title: Slash's Blog
-SEOTitle: 在机场等一艘船的博客 | Slash's Blog
+title: SanWanSui's Blog
+SEOTitle: 在机场等一艘船的博客 | SanWanSui's Blog
 header-img: img/post-bg-desk.jpg
 email: 13588730966@163.com
 description: "Every failure is leading towards success."
-keyword: "在机场等一艘船的博客,斜杠青年,yuquanfeng, 俞权锋"
+keyword: "在机场等一艘船的博客,斜杠青年,yuquanfeng, 俞权锋,三万岁"
 url: "http://yuquanfeng.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/yuquanfeng/yuquanfeng.github.io.git" # you code repository
